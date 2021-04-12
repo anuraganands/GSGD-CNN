@@ -1,0 +1,9 @@
+aliasdef cnn
+	classalias
+		augmentedImageSource -> augmentedImageDatastore;
+        nnet.internal.cnn.FourDArrayMiniBatchDatasource -> nnet.internal.cnn.FourDArrayMiniBatchDatastore;
+        nnet.internal.cnn.ImageDatastoreMiniBatchDatasource -> nnet.internal.cnn.ImageDatastoreMiniBatchDatastore;
+        nnet.internal.cnn.FilePathTableMiniBatchDatasource -> nnet.internal.cnn.FilePathTableMiniBatchDatastore;
+        nnet.internal.cnn.InMemoryTableMiniBatchDatasource -> nnet.internal.cnn.InMemoryTableMiniBatchDatastore;
+	end
+end

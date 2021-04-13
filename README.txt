@@ -1,6 +1,7 @@
 Paper: A Strategic Weight Refinement Maneuver for Convolutional Neural Networks
 Read Me for CNN-GSGD
-Programmers: Dr. Anuraganand Sharma, Patrick Sharma
+Programmer: Patrick Sharma
+Supervisor: Dr. Anuraganand Sharma
 
 The CNN-GSGD code has been written and tested with MATLAB-R2018a. 
 Disclaimer: Ensure that you have the nnet toolbox installed under your MATLAB license.

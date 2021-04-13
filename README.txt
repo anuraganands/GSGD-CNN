@@ -8,7 +8,7 @@ The CNN-GSGD code has been written and tested with MATLAB-R2018a.
 Disclaimer: Ensure that you have the nnet toolbox installed under your MATLAB license.
 
 Steps to setup CNN-GSGDon MATLAB-R2018a
-You will find the following files i the installation folder:
+You will find the following files in the installation folder:
 	- GSGD_setup.bat
 	- GSGD_remove.bat
 	- 'code' folder

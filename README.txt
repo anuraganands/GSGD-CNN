@@ -1,5 +1,6 @@
-Paper: A Strategic Weight Refinement Maneuver for Convolutional Neural Networks
 Read Me for CNN-GSGD
+
+Paper: A Strategic Weight Refinement Maneuver for Convolutional Neural Networks, IJCNN 2021 (TBP)
 Programmer: Patrick Sharma
 Supervisor: Dr. Anuraganand Sharma
 

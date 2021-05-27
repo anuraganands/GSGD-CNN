@@ -26,25 +26,15 @@ To setup GSGD on your MATLAB:
 
 	5. You may then add the following additional configurations in the network trainingOptions. 
 	   Refer to the sample CNN_Main file
-
-	---------------------------------------------------------------------------------------------------------------------
-	|	Set 'isGuided' parameters to true to enalble GSGD and then supply 'Rho', 'RevisitBatchNum' and 					|
-	|	'VerificationSetNum' values																						|
-	|																													|
-	|	Simply remove the above parameters to run without GSGD or set 'isGuided' to false								|
-	|																													|
-	|		'Rho' - number of iterations  to run for collection and checking of consistent data							|
-	|				before guided approach is activated to update the weights with consistent							|
-	|		        data																								|
-	|																													|
-	|		'RevisitBatchNum' - number of previous batches to revisit and 												|
-	|							check how it performs on present batch weights											|	
-	|																													|
-	|		'VerificationSetNum' - number of batches to set aside at the beginning of each epoch. 						|
-	|		                       Each batch gets picked randomly from this set to attain true							|
-	|		                       error on weights updated by each batch during										|
-	|		                       training																				|
-	---------------------------------------------------------------------------------------------------------------------
+	   
+		Set 'isGuided' parameters to true to enalble GSGD and then supply 'Rho', 'RevisitBatchNum' and 					
+		'VerificationSetNum' values				
+		Simply remove the above parameters to run without GSGD or set 'isGuided' to false
+			'Rho' - number of iterations  to run for collection and checking of consistent data before guided approach is activated to update the weights
+			with consistent data																												
+			'RevisitBatchNum' - number of previous batches to revisit and check how it performs on present batch weights.														
+			'VerificationSetNum' - number of batches to set aside at the beginning of each epoch. 
+			Each batch gets picked randomly from this set to attain true error on weights updated by each batch during training.	
 
 	6. Setup training & Testing dataset and run the 'CNN_Main.m' file to begin training
 

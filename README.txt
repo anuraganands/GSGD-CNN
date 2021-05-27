@@ -18,11 +18,14 @@ The 'code' folder consists od the 'CNN-GSGD' code, and all the other necessary c
 
 To setup GSGD on your MATLAB:
 	1. Run the 'GSGD_setup.bat' file.
-	2. Browse and Select the 'AAAI_CNN-GSGD' folder with the source code.	
+	
+	2. Browse and Select the 'AAAI_CNN-GSGD' folder with the source code.
+	
 	3. Select the destination 'nnet' folder in MATLAB toolboxes.
-		e.g 'C:\Program Files\MATLAB\R2018a\toolbox\nnet'
+	e.g 'C:\Program Files\MATLAB\R2018a\toolbox\nnet'
 
-	4. This will automatically rename the original 'cnn' folder to 'cnn_original' to keep the original matlab cnn files untouched.
+	4. This will automatically rename the original 'cnn' folder to 'cnn_original' to keep the original 
+	matlab cnn files untouched.
 
 	5. You may then add the following additional configurations in the network trainingOptions. 
 	   Refer to the sample CNN_Main file
@@ -43,6 +46,6 @@ Note: The actual CNN-GSGD code has been incorporated and can be viewed in the '.
 To remove GSGD on your MATLAB:
 	1. Run the 'GSGD_remove.bat' file.
 	2. Select the 'nnet' folder in MATLAB toolboxes which contains the CNN-GSGD code.
-		e.g 'C:\Program Files\MATLAB\R2018a\toolbox\nnet'
-
-	3. This will automatically remove 'cnn' folder with GSGD, and restore the original 'cnn' folder back into matlab.
+	e.g 'C:\Program Files\MATLAB\R2018a\toolbox\nnet'
+	3. This will automatically remove 'cnn' folder with GSGD, and restore the original 'cnn' folder
+	back into matlab.

@@ -19,7 +19,7 @@ ease of use - such as enabling/displaying GSGD(isGuided) from the neural network
 
 To setup GSGD on your MATLAB:
 	1. Run the 'GSGD_setup.bat' file.
-	2. Browse and Select the 'AAAI_CNN-GSGD' folder with the source code.	
+	2. Browse and Select the 'CNN-GSGD' folder with the source code.	
 	3. Select the destination 'nnet' folder in MATLAB toolboxes.
 		e.g 'C:\Program Files\MATLAB\R2018a\toolbox\nnet'
 
